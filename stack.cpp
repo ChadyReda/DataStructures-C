@@ -3,6 +3,8 @@
 using namespace std;
 
 // LIFO - last in first out
+// a stack is a fixed size datastructure that keep track of the top element or the first element in
+// last in first out means that the last element have the permession to be deleted
 
 struct Stack {
     int capacity;
@@ -62,13 +64,19 @@ void displayStack(struct Stack* st) {
 
 int main () {
     struct Stack newStack;
+
     createStack(&newStack, 5);
+
     appendToStack(&newStack, 10);
     appendToStack(&newStack, 20);
     appendToStack(&newStack, 30);
+
     displayStack(&newStack);
+
     popFromStack(&newStack);
+
     displayStack(&newStack);
+
     free(newStack.S);
     return 0;
 }

@@ -3,6 +3,8 @@
 using namespace std;
 
 // FIFO - first in first out
+// the first element in the queue is the only element that have permission to leave or be deleted
+
 struct Queue {
     int size;
     int front;

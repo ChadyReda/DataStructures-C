@@ -20,6 +20,7 @@ int main()
 {
     // malloc() free() calloc() realloc()
     // void free (pointer);
+    // void* malloc (nbrs_element * taill_element);
     // void* calloc (nbrs_element, taill_element);
     // void* realloc (pointeur, taille_octet);
     // realloc augmente ou diminuer ta taille reserver par le pointeur
