@@ -45,6 +45,7 @@ int main () {
     set(&m, 2, 2, 9);
     set(&m, 3, 3, 1);
     set(&m, 4, 4, 6);
+    
     display_Matrix(&m);
     return 0;
 }
