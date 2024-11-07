@@ -4,3 +4,7 @@
 - Lists 
 - Stacks
 - Queus
+- Graph
+- Memory management
+- Trees
+- 2D Array
